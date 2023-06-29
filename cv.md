@@ -34,6 +34,13 @@ for odd in odds:
 
 ====
 
+### Courses:
+
+* Front-End courses
+* Accaounting
+* Technician (dentistry)
+
+====
 
 
 
