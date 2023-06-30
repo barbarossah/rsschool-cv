@@ -42,5 +42,11 @@ for odd in odds:
 
 ====
 
+### Languages:
+
+* Uzbek (native)
+* Russian (upper-intermediate)
+* English (upper-intermediate)
+* Czech (pre-intermediate)
 
 
