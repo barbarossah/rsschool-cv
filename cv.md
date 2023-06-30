@@ -1,5 +1,4 @@
 # Ismoil Akhmadjonov
-====
 
 ### Contact information:
 
@@ -7,13 +6,13 @@
 + **E-mail:** ismoil997@seznam.cz
 + **Telegram:** @ismoil997_seznam_cz
 
-====
+**********
 
 ### About Me:
 
 The last two years i worked as an accountant. In that period i decided to change my occupation due to overwhelmed tasks without any amends, payoff. Then i started to learn programming by my own, since then i've been learning on youtube, on many other web resources.
 
-====
+**********
 
 ### Skills:
 
@@ -22,7 +21,7 @@ The last two years i worked as an accountant. In that period i decided to change
 + **JS**
 + **PYTHON**
 
-====
+**********
 
 ### Code example:
 
@@ -32,7 +31,7 @@ for odd in odds:
   print(f"{odd**3}")
 ```
 
-====
+**********
 
 ### Courses:
 
@@ -40,7 +39,7 @@ for odd in odds:
 * Accaounting
 * Technician (dentistry)
 
-====
+***********
 
 ### Languages:
 
