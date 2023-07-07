@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* color: #000; */
 }
 
 html {
@@ -17,16 +18,18 @@ body {
 .content-wrapper {
   padding: 80px;
   background-color: #FFFDFD;
+  /* color: #000; */
 }
 
 header {
+  color: #fff;
   height: 130px;
   background-color: #8D4B55;
-  color: #fff;
   padding: 20px;
 }
 
 .info {
+  /* color: #fff; */
   float: right;
   letter-spacing: 3px;
   word-spacing: 8px;
@@ -37,27 +40,69 @@ h1 {
   font-size: 37px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 header p {
   font-size: 20px;
 }
 
-.avatar > img {
+.left-side__container > img[alt='avatar-ico'] {
+  display: block;
   width: 5cm;
-  height: 5.5cm;
+  height: 6cm;
   border-radius: 50%;
-  margin-top: -50%;
+  margin: -60% 0 0 0;
   border: 5px solid #8D4B55;
+}
+
+.left-side__container {
+  width: 45%;
+  display: inline-block;
+}
+
+.container {
+  margin-top: 42px;
+  line-height: 1.8;
 }
 
 h2 {
   color: #942637;
-  margin-inline-start: 26px;
 }
 
 .underline {
   height: 2px;
-  width: 100px;
+  width: 130px;
   background-color: #8D4B55;
+  margin: 8px 0 30px;
+}
+
+li {
+  list-style-position: inside;
+}
+
+li {
+  cursor: default;
+}
+
+.my-contact {
+  font-size: 15px;
+}
+
+.my-contact li {
+  color: #000;
+}
+
+.skills li {
+  font-size: 14px;
+}
+
+
+.right-side__container {
+  width: 45%;
+  display: inline-block;
 }
 
 
@@ -73,18 +118,41 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-footer {
-  padding: 20px;
+.footer {
+  padding: 20px 50px;
   background-color: #8D4B55;
   height: 80px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer span {
+  vertical-align: super;
+  line-height: 40px; 
+}
+
+span a {
+  color: #fff;
+  text-shadow:#000 0px 1px 3px;
+}
+
+.footer span:last-of-type {
+  margin-left: -60px;
+}
+
+.footer span:first-of-type {
+  float: left;
+}
+
+img[alt='github-cat'] {
+  background-color: #fff;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+img[alt='rsschool'] {
+  border-radius: 50%;
+  float: right;
+
 }
