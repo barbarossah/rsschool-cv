@@ -24,6 +24,7 @@ header {
 
 nav {
   /* float: right; */
+  width: 200px;
   transform: translate(17cm, -2.3cm);
   display: flex;
   gap: 8.5px;
