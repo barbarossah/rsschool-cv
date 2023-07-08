@@ -15,11 +15,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.content-wrapper {
-  padding: 40px 80px 80px;
-  background-color: #FFFDFD;
-}
-
 header {
   color: #fff;
   height: 130px;
@@ -28,8 +23,8 @@ header {
 }
 
 nav {
-  float: right;
-  transform: translate(13.6cm, 3.4cm);
+  /* float: right; */
+  transform: translate(17cm, -2.3cm);
   display: flex;
   gap: 8.5px;
 }
@@ -76,6 +71,12 @@ header::before {
   margin: -350% 0 0 0;
 } */
 
+.content-wrapper {
+  padding: 40px 80px 80px;
+  background-color: #FFFDFD;
+  /* vertical-align: top; */
+}
+
 .left-side__container {
   width: 48%;
   display: inline-block;
@@ -114,9 +115,16 @@ li {
   color: #000;
 }
 
+.code {
+  /* background-color: darkgray; */
+  padding-right: 20px;
+  line-height: 1.4;
+}
+
 .right-side__container {
   width: 50%;
   display: inline-block;
+  transform: translateY(-180px);
 
 }
 
