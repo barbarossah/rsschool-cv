@@ -6,6 +6,7 @@
 
 html {
   background-color: #acacac;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +26,14 @@ header {
   background-color: #8D4B55;
   padding: 20px;
 }
+
+nav {
+  float: right;
+  transform: translate(13.6cm, 3.4cm);
+  display: flex;
+  gap: 8.5px;
+}
+
 
 .info {
   float: right;
