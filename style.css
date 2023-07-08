@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* color: #000; */
 }
 
 html {
@@ -16,9 +15,8 @@ body {
 }
 
 .content-wrapper {
-  padding: 80px;
+  padding: 40px 80px 80px;
   background-color: #FFFDFD;
-  /* color: #000; */
 }
 
 header {
@@ -29,7 +27,6 @@ header {
 }
 
 .info {
-  /* color: #fff; */
   float: right;
   letter-spacing: 3px;
   word-spacing: 8px;
@@ -49,23 +46,36 @@ header p {
   font-size: 20px;
 }
 
-.left-side__container > img[alt='avatar-ico'] {
-  display: block;
+header::before {
+  content: url('./media/fotor-ai-2023070612136.jpg');
+  display: inline-block;
+  zoom:15%;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 20%;
+  height: 210%;
+  border: 35px solid #8D4B55;
+  transform: translateX(11cm);
+  /* background-size: 100px; */
+  /* visibility: visible; */
+}
+
+/* .left-side__container > img[alt='avatar-ico'] {
   width: 5cm;
   height: 6cm;
   border-radius: 50%;
-  margin: -60% 0 0 0;
-  border: 5px solid #8D4B55;
-}
+  margin: -350% 0 0 0;
+} */
 
 .left-side__container {
-  width: 45%;
+  width: 48%;
   display: inline-block;
+  transform: translateY(20px);
 }
 
 .container {
   margin-top: 42px;
-  line-height: 1.8;
+  line-height: 1.9;
 }
 
 h2 {
@@ -95,28 +105,15 @@ li {
   color: #000;
 }
 
-.skills li {
-  font-size: 14px;
-}
-
-
 .right-side__container {
-  width: 45%;
+  width: 50%;
   display: inline-block;
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+main {
+  line-height: 1.5;
+}
 
 .footer {
   padding: 20px 50px;
@@ -154,5 +151,4 @@ img[alt='github-cat'] {
 img[alt='rsschool'] {
   border-radius: 50%;
   float: right;
-
 }
