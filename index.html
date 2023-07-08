@@ -3,9 +3,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV-project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <header>
+    <div class="info">
+      <h1>Ismoil Akhmad</h1>
+      <p>&lt;Frontend Developer&gt;</p>
+    </div>
+
+    <nav>
+      <a href="#my-contact"><img width="20" src="./media/communicate.png" alt="lang"></a>
+      <a href="#skills"><img width="20" src="./media/pencil.png" alt="lang"></a>
+      <a href="#education"><img width="20" src="./media/education.png" alt="lang"></a>
+      <a href="#code"><img width="20" src="./media/free-icon-website-4267574.png" alt="lang"></a>
+      <a href="#abaout-me"><img width="20" src="./media/information.png" alt="lang"></a>
+      <a href="#job-experience"><img width="20" src="./media/work.png" alt="lang"></a>
+      <a href="#languages"><img width="20" src="./media/arabic.png" alt="lang"></a>
+    </nav>
+  </header>
+
+  <div class="content-wrapper">
+
+    
+    
+    <div class="left-side__container">
+      <!-- <img src="./media/fotor-ai-2023070612136.jpg" alt="avatar-ico"> -->
+      
+      <div class="container">
+        <section id="my-contact" class="my-contact">
+          <h2>My Contact</h2>
+          <div class="underline"></div>
+          <ul>
+            <li style="list-style-image: url('./media/envelope.png');"><a href="mailto:ismoil997@seznam.cz">ismoil997@seznam.cz</a></li>
+            <li style="list-style-image: url('./media/telephone-call.png');"><a href="tel:+998990393352">+998 (99) 039-33-52</a></li>
+            <li style="list-style-image: url('./media/location.png');">Tashkent, Shaykhontaxur</li>
+            <li style="list-style-image: url('./media/telegram.png');"><a href="https://t.me/ismoil997_seznam_cz">Telegram</a></li>
+          </ul>
+        </section>
+      </div>
+  
+      <div class="container">
+        <section id="skills" class="skills">
+          <h2>Skills</h2>
+          <div class="underline"></div>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+            <li>PYTHON</li>
+            <li>Git, Github</li>
+          </ul>
+        </section>
+      </div>
+  
+      <div class="container">
+        <section id="education" class="education">
+          <h2>Education Background</h2>
+          <div class="underline"></div>
+          <ul>
+            <li><span title="Chilanzar Medical College 2010-2013">CHMC</span></li>
+            <li><span title="Ceska Zemnedelska Univerzita 2016-2017">CZU</span></li>
+            <li><span title="Metropolitni Univerzita v Praze 2017-2018">MUP</span></li>
+            <li><span title="Accounting courses 2020">Moliya Studiya</span></li>
+            <li><span title="Frontend Development courses 2022">Monomarkaz</span></li>
+          </ul>
+        </section>
+      </div>
+      <section id="code" class="code">
+        <div class="container">
+          <h2>Code example:</h2>
+          <div class="underline"></div>
+          <div class="code">
+            
+            <pre><code>
+function reverse (n) {
+
+  let result;
+  numStr = String(n);
+  for (let i = 0; i &lt; numStr.length; i++) {
+    result = `${numStr[i]}${result}`; 
+  }
+  return parseInt(result);
+}
+            </code></pre>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+    <div class="right-side__container">
+      <div class="container">
+        <main id="about-me" class="about-me">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+          <p>The last two years working as an accountant and simultaneously learning python programming language, practicing creating web applications i decided to change my occupation. Since then i've been learning learning programming by my own on youtube, on many other web resources. Soon i hope to become junior frontend developer and do lots of interesting applications that make human life easier. </p>
+        </main>
+      </div>
+
+      <div class="container">
+        <section id="job-experience" class="job-experience">
+          <h2>Job Experiance</h2>
+          <div class="underline"></div>
+          <ul>
+            <li>Mega Consult</li>
+            <li>Shinfood</li>
+            <li>True Star</li>
+            <li>Fratti Cosmetic</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="languages" class="languages">
+          <h2>Languages</h2>
+          <div class="underline"></div>
+          <ul>
+            <li>Uzbek (Native)</li>
+            <li>Russian (B2)</li>
+            <li>English (B1)</li>
+            <li>Czech (A2)</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <a href="https://github.com/barbarossah" target="_blank"><img width="42" src="./media/github.png" alt="github-cat"></a>
+    <span><a href="https://github.com/barbarossah" target="_blank">GitHub</a></span>
+    <span>2023 Tashkent</span>
+    <a href="https://rs.school/js-stage0/" target="_blank"><img width="50" src="./media/2b8ed5a65ad111099e3a3adb6b5d1fa9.png" alt="rsschool"></a>
+  </footer>
+
 </body>
 </html>
